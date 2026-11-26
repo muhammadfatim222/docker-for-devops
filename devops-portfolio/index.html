@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DevOps Engineer Portfolio</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0b1120;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    padding: 25px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111827;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #0f172a, #164e63);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero h1 span {
+    color: #38bdf8;
+}
+
+.hero p {
+    color: #cbd5e1;
+    font-size: 18px;
+    max-width: 650px;
+    margin: auto;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 28px;
+    background: #0ea5e9;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+section {
+    padding: 65px 10%;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #38bdf8;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 30px 20px;
+    border-radius: 12px;
+    border: 1px solid #334155;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    border-color: #38bdf8;
+}
+
+.card h3 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+    color: #cbd5e1;
+}
+
+footer {
+    background: #111827;
+    text-align: center;
+    padding: 25px;
+    color: #94a3b8;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">DevOps.</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+    </nav>
+</header>
+
+<div class="hero" id="home">
+
+    <h1>Welcome to My <span>DevOps World</span></h1>
+
+    <p>
+        Building, Deploying and Automating Applications
+        with modern DevOps technologies.
+    </p>
+
+    <a href="#skills" class="btn">Explore My Skills</a>
+
+</div>
+
+<section class="about" id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        I am learning DevOps engineering and exploring
+        Linux Administration, Git, GitHub, Docker and
+        Cloud Technologies. My goal is to build reliable
+        and scalable applications.
+    </p>
+
+</section>
+
+<section id="skills">
+
+    <h2>My Technical Skills</h2>
+
+    <div class="skills">
+
+        <div class="card">
+            <h3>Linux</h3>
+            <p>System Administration</p>
+        </div>
+
+        <div class="card">
+            <h3>Git & GitHub</h3>
+            <p>Version Control</p>
+        </div>
+
+        <div class="card">
+            <h3>Docker</h3>
+            <p>Containerization</p>
+        </div>
+
+        <div class="card">
+            <h3>AWS</h3>
+            <p>Cloud Computing</p>
+        </div>
+
+        <div class="card">
+            <h3>Networking</h3>
+            <p>Network Fundamentals</p>
+        </div>
+
+        <div class="card">
+            <h3>DevOps</h3>
+            <p>Automation & Deployment</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 DevOps Portfolio | Built with Docker</p>
+</footer>
+
+</body>
+</html>
